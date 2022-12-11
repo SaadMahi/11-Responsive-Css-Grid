@@ -3,6 +3,8 @@
   --main-padding: 5px;
 }
 
+*{ margin:0;   padding:0;   box-sizing:border-box; };
+
 .container {
   display: grid;
   height: 100vh;
@@ -22,7 +24,6 @@
   font-weight: 800;
   text-transform: uppercase;
   font-size: 0.75em;
-  padding: var(--main-padding);
   text-align: center;
 
   color: #004;
